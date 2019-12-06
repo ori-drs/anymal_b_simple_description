@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="anymal_base/anymal_base_0.vtp">
+    </DataSet>
+    <DataSet index="1" file="anymal_base/anymal_base_1.vtp">
+    </DataSet>
+    <DataSet index="2" file="anymal_base/anymal_base_2.vtp">
+    </DataSet>
+    <DataSet index="3" file="anymal_base/anymal_base_3.vtp">
+    </DataSet>
+    <DataSet index="4" file="anymal_base/anymal_base_4.vtp">
+    </DataSet>
+    <DataSet index="5" file="anymal_base/anymal_base_5.vtp">
+    </DataSet>
+    <DataSet index="6" file="anymal_base/anymal_base_6.vtp">
+    </DataSet>
+    <DataSet index="7" file="anymal_base/anymal_base_7.vtp">
+    </DataSet>
+    <DataSet index="8" file="anymal_base/anymal_base_8.vtp">
+    </DataSet>
+    <DataSet index="9" file="anymal_base/anymal_base_9.vtp">
+    </DataSet>
+    <DataSet index="10" file="anymal_base/anymal_base_10.vtp">
+    </DataSet>
+    <DataSet index="11" file="anymal_base/anymal_base_11.vtp">
+    </DataSet>
+    <DataSet index="12" file="anymal_base/anymal_base_12.vtp">
+    </DataSet>
+    <DataSet index="13" file="anymal_base/anymal_base_13.vtp">
+    </DataSet>
+    <DataSet index="14" file="anymal_base/anymal_base_14.vtp">
+    </DataSet>
+    <DataSet index="15" file="anymal_base/anymal_base_15.vtp">
+    </DataSet>
+    <DataSet index="16" file="anymal_base/anymal_base_16.vtp">
+    </DataSet>
+    <DataSet index="17" file="anymal_base/anymal_base_17.vtp">
+    </DataSet>
+    <DataSet index="18" file="anymal_base/anymal_base_18.vtp">
+    </DataSet>
+    <DataSet index="19" file="anymal_base/anymal_base_19.vtp">
+    </DataSet>
+    <DataSet index="20" file="anymal_base/anymal_base_20.vtp">
+    </DataSet>
+    <DataSet index="21" file="anymal_base/anymal_base_21.vtp">
+    </DataSet>
+    <DataSet index="22" file="anymal_base/anymal_base_22.vtp">
+    </DataSet>
+    <DataSet index="23" file="anymal_base/anymal_base_23.vtp">
+    </DataSet>
+    <DataSet index="24" file="anymal_base/anymal_base_24.vtp">
+    </DataSet>
+    <DataSet index="25" file="anymal_base/anymal_base_25.vtp">
+    </DataSet>
+    <DataSet index="26" file="anymal_base/anymal_base_26.vtp">
+    </DataSet>
+    <DataSet index="27" file="anymal_base/anymal_base_27.vtp">
+    </DataSet>
+    <DataSet index="28" file="anymal_base/anymal_base_28.vtp">
+    </DataSet>
+    <DataSet index="29" file="anymal_base/anymal_base_29.vtp">
+    </DataSet>
+    <DataSet index="30" file="anymal_base/anymal_base_30.vtp">
+    </DataSet>
+    <DataSet index="31" file="anymal_base/anymal_base_31.vtp">
+    </DataSet>
+    <DataSet index="32" file="anymal_base/anymal_base_32.vtp">
+    </DataSet>
+    <DataSet index="33" file="anymal_base/anymal_base_33.vtp">
+    </DataSet>
+    <DataSet index="34" file="anymal_base/anymal_base_34.vtp">
+    </DataSet>
+    <DataSet index="35" file="anymal_base/anymal_base_35.vtp">
+    </DataSet>
+    <DataSet index="36" file="anymal_base/anymal_base_36.vtp">
+    </DataSet>
+    <DataSet index="37" file="anymal_base/anymal_base_37.vtp">
+    </DataSet>
+    <DataSet index="38" file="anymal_base/anymal_base_38.vtp">
+    </DataSet>
+  </vtkMultiBlockDataSet>
+</VTKFile>

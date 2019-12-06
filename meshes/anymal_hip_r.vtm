@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="anymal_hip_r/anymal_hip_r_0.vtp">
+    </DataSet>
+    <DataSet index="1" file="anymal_hip_r/anymal_hip_r_1.vtp">
+    </DataSet>
+    <DataSet index="2" file="anymal_hip_r/anymal_hip_r_2.vtp">
+    </DataSet>
+    <DataSet index="3" file="anymal_hip_r/anymal_hip_r_3.vtp">
+    </DataSet>
+    <DataSet index="4" file="anymal_hip_r/anymal_hip_r_4.vtp">
+    </DataSet>
+    <DataSet index="5" file="anymal_hip_r/anymal_hip_r_5.vtp">
+    </DataSet>
+    <DataSet index="6" file="anymal_hip_r/anymal_hip_r_6.vtp">
+    </DataSet>
+    <DataSet index="7" file="anymal_hip_r/anymal_hip_r_7.vtp">
+    </DataSet>
+    <DataSet index="8" file="anymal_hip_r/anymal_hip_r_8.vtp">
+    </DataSet>
+    <DataSet index="9" file="anymal_hip_r/anymal_hip_r_9.vtp">
+    </DataSet>
+    <DataSet index="10" file="anymal_hip_r/anymal_hip_r_10.vtp">
+    </DataSet>
+    <DataSet index="11" file="anymal_hip_r/anymal_hip_r_11.vtp">
+    </DataSet>
+    <DataSet index="12" file="anymal_hip_r/anymal_hip_r_12.vtp">
+    </DataSet>
+    <DataSet index="13" file="anymal_hip_r/anymal_hip_r_13.vtp">
+    </DataSet>
+  </vtkMultiBlockDataSet>
+</VTKFile>

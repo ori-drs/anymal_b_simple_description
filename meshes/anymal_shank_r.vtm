@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="anymal_shank_r/anymal_shank_r_0.vtp">
+    </DataSet>
+    <DataSet index="1" file="anymal_shank_r/anymal_shank_r_1.vtp">
+    </DataSet>
+    <DataSet index="2" file="anymal_shank_r/anymal_shank_r_2.vtp">
+    </DataSet>
+    <DataSet index="3" file="anymal_shank_r/anymal_shank_r_3.vtp">
+    </DataSet>
+    <DataSet index="4" file="anymal_shank_r/anymal_shank_r_4.vtp">
+    </DataSet>
+  </vtkMultiBlockDataSet>
+</VTKFile>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="anymal_foot/anymal_foot_0.vtp">
+    </DataSet>
+    <DataSet index="1" file="anymal_foot/anymal_foot_1.vtp">
+    </DataSet>
+    <DataSet index="2" file="anymal_foot/anymal_foot_2.vtp">
+    </DataSet>
+  </vtkMultiBlockDataSet>
+</VTKFile>
