@@ -11,9 +11,13 @@
   <author email="lisler@anybotics.com">Linus Isler</author>
   <maintainer email="lisler@anybotics.com">Linus Isler</maintainer>
   <maintainer email="rdiethelm@anybotics.com">Remo Diethelm</maintainer>
+  <maintainer email="mcamurri@robots.ox.ac.uk">Marco Camurri</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
 
   <test_depend>roslaunch</test_depend>
 
+  <depend>velodyne_description</depend>
+  <depend>realsense2_description</depend>
 </package>
+

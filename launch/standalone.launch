@@ -11,8 +11,7 @@
 
   <!-- Load robot description -->
   <include file="$(find anymal_b_simple_description)/launch/load.launch">
-    <arg name="description_name" value="$(arg description_name)"/>
-    <arg name="description_file" value="$(arg description_file)"/>
+    <arg name="simulation" value="true" />
   </include>
 
   <!-- Joint state publisher -->
