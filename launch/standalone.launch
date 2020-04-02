@@ -3,7 +3,7 @@
 <launch>
 
   <!-- Name of the robot description parameter -->
-  <arg name="description_name"         default="anymal_description"/>
+  <arg name="description_name"         default="robot_description"/>
   <!-- Set robot description path -->
   <arg name="description_file"         default="$(find anymal_b_simple_description)/urdf/anymal.urdf"/>
   <!-- Joint state topic name -->
@@ -12,6 +12,7 @@
   <!-- Load robot description -->
   <include file="$(find anymal_b_simple_description)/launch/load.launch">
     <arg name="simulation" value="true" />
+    <arg name="description_name" value="$(arg description_name)" />
   </include>
 
   <!-- Joint state publisher -->
