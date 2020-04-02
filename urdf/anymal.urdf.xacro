@@ -8,8 +8,8 @@
   <xacro:include filename="$(find velodyne_description)/urdf/VLP-16.urdf.xacro" />  
 
   <!-- add the sensors -->
-  <imu name="xsens_mti_100" parent="base">
-    <origin xyz="0.038 0.062 0.184" rpy = "${pi} 0 ${pi}" />
+  <imu name="imu" parent="base">
+    <origin xyz="${0.038+0.02935-0.012} ${0.06245-0.029+0.0229} ${0.1837+0.0095}" rpy = "${pi} 0 ${pi}" />
   </imu>
 
   <sensor_d435i parent="base" name="realsense_d435i" use_nominal_extrinsics="$(arg simulation)">

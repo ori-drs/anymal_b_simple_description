@@ -32,10 +32,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <joint name="${name}_joint" type="fixed">
       <xacro:insert_block name="origin" />
       <parent link="${parent}"/>
-      <child link="${name}_base_link"/>
+      <child link="${name}_mount_link"/>
     </joint>
     
-    <link name="${name}_base_link">
+    <link name="${name}_mount_link">
      <inertial>
         <mass value="0.001" />
         <origin xyz="0 0 0" rpy="0 0 0" />
@@ -76,11 +76,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     
     <joint name="${name}_sensor_joint" type="fixed">
       <origin xyz="${0.02935-0.012} ${.029-.0229} ${0.0095}" rpy="0.0 0.0 0.0" />
-      <parent link="${name}_base_link" />
-      <child link="${name}"/>
+      <parent link="${name}_mount_link" />
+      <child link="${name}_link"/>
     </joint>
   
-    <link name="${name}"/>
+    <link name="${name}_link"/>
     
     <material name="${name}_silver">
           <color rgba="0.753 0.753 0.753 1"/>
