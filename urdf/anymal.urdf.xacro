@@ -39,4 +39,20 @@
   <VLP-16 parent="base">
     <origin xyz = "-0.102 0.000 0.290" rpy="0 0 ${-140.0*pi/180.0}" />
   </VLP-16>
+
+<!-- add Leica prism to be tracked for ground truth -->
+  <link name="leica_prism">
+    <visual>
+      <geometry>
+        <cylinder length="0.03" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_to_leica_prism" type="fixed">
+    <origin xyz="-0.037 0 0.355" rpy="0 0 0" />
+    <parent link="base"/>
+    <child link="leica_prism"/>
+  </joint>
+
 </robot>
