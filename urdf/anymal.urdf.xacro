@@ -12,8 +12,28 @@
     <origin xyz="${0.038+0.02935-0.012} ${0.06245-0.029+0.0229} ${0.1837+0.0095}" rpy = "${pi} 0 ${pi}" />
   </imu>
 
-  <sensor_d435i parent="base" name="realsense_d435i" use_nominal_extrinsics="$(arg simulation)">
-    <origin xyz="0.371 0.018 0.162" rpy="0 ${pi*12.0/180.0} 0" />
+  <!-- fake convenience link representing the optical center of the left camera-->
+  <link name="camera_link" />
+
+  <!-- this is the joint to update if the camera extrinsics change -->
+  <joint name="base_to_camera_link" type="fixed">
+    <origin xyz="0.371 0.018 0.162" rpy="0 ${pi*11.7/180.0} ${pi*1.75/180.0}" />
+    <parent link="base"/>
+    <child link="camera_link" />
+  </joint>
+
+  <!-- attachment point for the realsense -->
+  <link name="realsense_parent"/>
+
+  <!-- this joint brings the camera link back to the bottom screw hole -->
+  <joint name="camera_link_to_parent" type="fixed">
+    <origin xyz="${-0.0149 +0.1e-3 +4.2e-3} -0.0175 ${-0.025/2}" rpy="0 0 0"/>
+    <parent link="camera_link" />
+    <child link="realsense_parent" />
+  </joint>
+
+  <sensor_d435i parent="realsense_parent" name="realsense_d435i" use_nominal_extrinsics="$(arg simulation)">
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
   </sensor_d435i>
 
   <VLP-16 parent="base">
